@@ -25,12 +25,14 @@ const teachers = [
 ];
 
 const events = [
-  ["Xafladda Qalin-jabinta", "25 Juun 2026", "Maalin lagu maamuusayo dadaalka iyo guusha ardayda fasalka ugu dambeeya.", "/school/care-school-event.jpg"],
-  ["Tartanka Aqoonta", "18 Luulyo 2026", "Ardaydu waxay ku tartamayaan aqoon, hal-abuur iyo wada-shaqayn.", "/school/students-boys-group.jpg"],
-  ["Maalinta Macallinka", "5 Oktoobar 2026", "Waxaan u mahadcelinaynaa macallimiinta hagta jiilkeenna berri.", "/school/students-indoor-2.jpg"],
-  ["Bandhigga Ardayda", "12 Nofeembar 2026", "Bandhig faneed iyo cilmiyeed ay ardaydu ku soo bandhigaan kartidooda.", "/school/students-outdoor-girls.jpg"],
-  ["Imtixaanka Sanadlaha", "8 Diseembar 2026", "Qiimaynta dhammaadka sanad-dugsiyeedka ee heerarka kala duwan.", "/school/students-indoor-1.jpg"],
-  ["Kulanka Waalidiinta", "20 Diseembar 2026", "Kulan lagu xoojinayo iskaashiga dugsiga iyo qoysaska ardayda.", "/school/students-outdoor-mixed.jpg"],
+  ["Tartanka Aqoonta Ardayda", "Tartan Aqooneed", "Ardayda CARE waxay muujiyeen aqoon, kalsooni iyo wada-shaqayn.", "/school/event-student-speaker.jpg"],
+  ["Bandhigga Kooxaha Aqoonta", "Hawl Arday", "Kooxaha ardaydu waxay si wadajir ah uga qaybgaleen hawl aqooneed xiiso leh.", "/school/event-knowledge-team.jpg"],
+  ["Tartanka Ciyaaraha Fudud", "Maalinta Ciyaaraha", "Orod iyo tartamo kale oo kobcinaya caafimaadka, adkaysiga iyo tartanka wanaagsan.", "/school/event-track-race.jpg"],
+  ["Kooxda CARE oo Billado Guddoontay", "Abaalmarin Ciyaareed", "Guulaha ciyaaraha waxaa lagu maamuusay koobab iyo billado sharaf leh.", "/school/event-sports-awards.jpg"],
+  ["Tartanka Chess-ka", "Tartan Maskaxeed", "Ardaydu waxay ku tartameen qorshayn, dulqaad iyo fikir xeeldheer.", "/school/event-chess.jpg"],
+  ["Tartanka Kubbadda Cagta", "Ciyaaraha Dugsiga", "Ciyaar xamaasad leh oo xoojisay wada-shaqaynta iyo anshaxa ciyaaraha.", "/school/event-football.jpg"],
+  ["Tababarka Horumarinta Xirfadaha", "Tababar Macallimiin", "Tababar lagu kobcinayo aqoonta iyo xirfadaha kooxda waxbarashada.", "/school/event-training-certificate-1.jpg"],
+  ["Guddoonsiinta Shahaadooyinka", "Aqoonsi iyo Shahaado", "Ka qaybgalayaasha tababarka ayaa lagu maamuusay shahaadooyin aqoonsi ah.", "/school/event-training-certificate-2.jpg"],
 ];
 
 const news = [
@@ -48,6 +50,18 @@ const gallery = [
   ["Booqashooyinka", "/school/students-outdoor-mixed.jpg"],
   ["Ardayda", "/school/students-boys-group.jpg"],
   ["Tartamada", "/school/care-school-event.jpg"],
+  ["Tartamada", "/school/event-student-speaker.jpg"],
+  ["Tartamada", "/school/event-knowledge-team.jpg"],
+  ["Tartamada", "/school/event-knowledge-girls.jpg"],
+  ["Xafladaha", "/school/event-sports-awards.jpg"],
+  ["Tartamada", "/school/event-athletics-team.jpg"],
+  ["Tartamada", "/school/event-track-race.jpg"],
+  ["Tartamada", "/school/event-track-finish.jpg"],
+  ["Macallimiinta", "/school/event-training-certificate-1.jpg"],
+  ["Macallimiinta", "/school/event-training-certificate-2.jpg"],
+  ["Hawlaha Dugsiga", "/school/event-knowledge-supervisor.jpg"],
+  ["Tartamada", "/school/event-chess.jpg"],
+  ["Tartamada", "/school/event-football.jpg"],
 ];
 
 function Logo({ light = false }) {

@@ -52,7 +52,7 @@ const gallery = [
 ];
 
 function Logo({ light = false }) {
-  return <div className={`logo ${light ? "light" : ""}`}><span className="logo-mark">C</span><span><b>CARE</b><small>PRIMARY & SECONDARY SCHOOL</small></span></div>;
+  return <div className={`logo ${light ? "light" : ""}`}><img className="logo-img" src="/care-school-logo.png" alt="CARE School"/><span><b>CARE SCHOOL</b><small>PRIMARY & SECONDARY • WADAJIR</small></span></div>;
 }
 
 function Link({ to, children, className = "", onGo }) {

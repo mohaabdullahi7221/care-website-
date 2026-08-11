@@ -3,10 +3,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const IMG = {
-  hero: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=85",
-  about: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=85",
-  primary: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=85",
-  secondary: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=85",
+  hero: "/hero.jpg",
+  about: "/classroom.jpg",
+  primary: "/study.png",
+  secondary: "/girls.webp",
 };
 
 const nav = [
@@ -25,28 +25,28 @@ const teachers = [
 ];
 
 const events = [
-  ["Xafladda Qalin-jabinta", "25 Juun 2026", "Maalin lagu maamuusayo dadaalka iyo guusha ardayda fasalka ugu dambeeya.", "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=900&q=80"],
-  ["Tartanka Aqoonta", "18 Luulyo 2026", "Ardaydu waxay ku tartamayaan aqoon, hal-abuur iyo wada-shaqayn.", "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"],
-  ["Maalinta Macallinka", "5 Oktoobar 2026", "Waxaan u mahadcelinaynaa macallimiinta hagta jiilkeenna berri.", "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"],
-  ["Bandhigga Ardayda", "12 Nofeembar 2026", "Bandhig faneed iyo cilmiyeed ay ardaydu ku soo bandhigaan kartidooda.", "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80"],
+  ["Xafladda Qalin-jabinta", "25 Juun 2026", "Maalin lagu maamuusayo dadaalka iyo guusha ardayda fasalka ugu dambeeya.", "/hero.jpg"],
+  ["Tartanka Aqoonta", "18 Luulyo 2026", "Ardaydu waxay ku tartamayaan aqoon, hal-abuur iyo wada-shaqayn.", "/study.png"],
+  ["Maalinta Macallinka", "5 Oktoobar 2026", "Waxaan u mahadcelinaynaa macallimiinta hagta jiilkeenna berri.", "/classroom.jpg"],
+  ["Bandhigga Ardayda", "12 Nofeembar 2026", "Bandhig faneed iyo cilmiyeed ay ardaydu ku soo bandhigaan kartidooda.", "/girls.webp"],
   ["Imtixaanka Sanadlaha", "8 Diseembar 2026", "Qiimaynta dhammaadka sanad-dugsiyeedka ee heerarka kala duwan.", "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80"],
   ["Kulanka Waalidiinta", "20 Diseembar 2026", "Kulan lagu xoojinayo iskaashiga dugsiga iyo qoysaska ardayda.", "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"],
 ];
 
 const news = [
-  ["Ardayda CARE oo ku guulaysatay tartan aqooneed", "2 Agoosto 2026", "Kooxda dugsigeennu waxay kaalinta koowaad ka gashay tartan ay ka qaybgaleen dugsiyo badan.", "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80"],
+  ["Ardayda CARE oo ku guulaysatay tartan aqooneed", "2 Agoosto 2026", "Kooxda dugsigeennu waxay kaalinta koowaad ka gashay tartan ay ka qaybgaleen dugsiyo badan.", "/hero.jpg"],
   ["Maktabadda dugsiga oo la ballaariyey", "28 Luulyo 2026", "Buugaag cusub iyo meel akhris oo casri ah ayaa loo diyaariyey dhammaan ardayda.", "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80"],
   ["Barnaamijka beerista iyo ilaalinta deegaanka", "15 Luulyo 2026", "Ardaydu waxay olole cagaaran ka fuliyeen xarunta dugsiga iyo xaafadda ku dhow.", "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=900&q=80"],
 ];
 
 const gallery = [
-  ["Ardayda", "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"],
-  ["Macallimiinta", "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"],
-  ["Xafladaha", "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=900&q=80"],
-  ["Fasallada", "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80"],
+  ["Ardayda", "/hero.jpg"],
+  ["Macallimiinta", "/classroom.jpg"],
+  ["Xafladaha", "/study.png"],
+  ["Fasallada", "/girls.webp"],
   ["Tartamada", "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=900&q=80"],
-  ["Hawlaha Dugsiga", "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80"],
-  ["Ardayda", "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80"],
+  ["Hawlaha Dugsiga", "/hero.jpg"],
+  ["Ardayda", "/study.png"],
   ["Fasallada", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80"],
   ["Hawlaha Dugsiga", "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"],
 ];
@@ -62,7 +62,7 @@ function Link({ to, children, className = "", onGo }) {
 function Navbar({ path, go }) {
   const [open, setOpen] = useState(false);
   return <>
-    <div className="topbar"><div className="wrap topbar-in"><span>📍 Wadajir, Muqdisho, Soomaaliya</span><span>✉️ info@careschool.so &nbsp; • &nbsp; ☎️ +252 61 234 5678</span></div></div>
+    <div className="topbar"><div className="wrap topbar-in"><span>📍 Jidka Afgooye, Wadajir, Muqdisho</span><span>Dalladda SAFE &nbsp; • &nbsp; ☎️ 0615 486 189</span></div></div>
     <header className="navbar"><div className="wrap nav-in"><Link to="/" onGo={go}><Logo /></Link>
       <button className="menu" aria-label="Fur liiska" onClick={() => setOpen(!open)}><span></span><span></span><span></span></button>
       <nav className={open ? "open" : ""}>{nav.map(([to, label]) => <Link key={to} to={to} onGo={(x) => { go(x); setOpen(false); }} className={path === to ? "active" : ""}>{label}</Link>)}</nav>
@@ -112,10 +112,10 @@ function News(){return <><PageHero eyebrow="WARGELINTA" title="Wararkii Ugu Damb
 
 function Testimonials(){return <section className="section testimonials"><div className="wrap"><SectionTitle eyebrow="BULSHADEENNA" title="Waxay Naga Yiraahdeen" light/><div className="quote-grid">{[["Hodan Warsame","Waalid","Dugsigu ma bixiyo aqoon keliya; waxaan si cad uga arkaa ilmahayga kalsooni iyo akhlaaq wanaagsan."],["Yuusuf Cabdi","Arday","Macallimiintu waxay naga dhigaan inaan su'aalo weydiinno, fikradno oo aan rumaysanno kartideenna."],["Sahra Maxamed","Arday Hore","Aasaaskii aan CARE ka helay ayaa ii fududeeyey jaamacadda. Weli waxaan dareemaa inaan qoyska dugsiga ka tirsanahay."]].map(([n,r,q])=><blockquote><span>“</span><p>{q}</p><footer><b>{n}</b><small>{r}</small></footer></blockquote>)}</div></div></section>}
 
-function Contact(){const [sent,setSent]=useState(false);function submit(e){e.preventDefault();if(e.currentTarget.reportValidity()){setSent(true);e.currentTarget.reset();}}return <><PageHero eyebrow="WADA HADAL" title="Nala Soo Xiriir" text="Su'aal ma qabtaa? Kooxdayadu waxay diyaar u tahay inay ku caawiso."/><section className="section"><div className="wrap contact-grid"><div><SectionTitle eyebrow="XOGTA XIRIIRKA" title="Waxaan jeclaan lahayn inaan kaa maqalno."/><p className="lead">Nagu soo booqo Wadajir ama nala soo xiriir. Waxaan ku siin doonnaa dhammaan macluumaadka aad uga baahan tahay diiwaangelinta iyo waxbarashada.</p><div className="contact-list"><div><span>📍</span><p><b>Goobta</b>Wadajir, Muqdisho, Soomaaliya</p></div><div><span>☎</span><p><b>Telefoonka</b>+252 61 234 5678</p></div><div><span>✉</span><p><b>Iimaylka</b>info@careschool.so</p></div><div><span>f</span><p><b>Facebook</b>CARE School Muqdisho</p></div></div></div><form onSubmit={submit}><div className="form-head"><span>FARIIN NOO SOO DIR</span><h2>Sideen kuu caawin karnaa?</h2></div><div className="form-row"><label>Magaca<input required name="name" placeholder="Magaca oo buuxa"/></label><label>Telefoonka<input required name="phone" type="tel" placeholder="+252 61..."/></label></div><label>Iimaylka<input required name="email" type="email" placeholder="magac@tusaale.com"/></label><label>Mawduuca<input required name="subject" placeholder="Maxay fariintu ku saabsan tahay?"/></label><label>Fariinta<textarea required name="message" rows="5" placeholder="Halkan ku qor fariintaada..."></textarea></label><button className="btn gold" type="submit">Dir Fariinta →</button>{sent&&<p className="success">Mahadsanid! Fariintaada waa la diyaariyey.</p>}</form></div></section><section className="map"><div><span>📍</span><b>CARE Primary and Secondary School</b><small>Wadajir, Muqdisho, Soomaaliya</small></div></section></>}
+function Contact(){const [sent,setSent]=useState(false);function submit(e){e.preventDefault();if(e.currentTarget.reportValidity()){setSent(true);e.currentTarget.reset();}}return <><PageHero eyebrow="WADA HADAL" title="Nala Soo Xiriir" text="Su'aal ma qabtaa? Kooxdayadu waxay diyaar u tahay inay ku caawiso."/><section className="section"><div className="wrap contact-grid"><div><SectionTitle eyebrow="XOGTA XIRIIRKA" title="Waxaan jeclaan lahayn inaan kaa maqalno."/><p className="lead">Nagu soo booqo Jidka Afgooye, Wadajir ama naga soo wac lambarka dugsiga. Waxaan ku siin doonnaa macluumaadka diiwaangelinta iyo waxbarashada.</p><div className="contact-list"><div><span>📍</span><p><b>Goobta</b>27PW+HJG, Jidka Afgooye, Wadajir, Muqdisho</p></div><div><span>☎</span><p><b>Telefoonka</b>0615 486 189</p></div><div><span>⌂</span><p><b>Dalladda Waxbarashada</b>SAFE</p></div></div></div><form onSubmit={submit}><div className="form-head"><span>FARIIN NOO SOO DIR</span><h2>Sideen kuu caawin karnaa?</h2></div><div className="form-row"><label>Magaca<input required name="name" placeholder="Magaca oo buuxa"/></label><label>Telefoonka<input required name="phone" type="tel" placeholder="0615 486 189"/></label></div><label>Iimaylka<input required name="email" type="email" placeholder="magac@tusaale.com"/></label><label>Mawduuca<input required name="subject" placeholder="Maxay fariintu ku saabsan tahay?"/></label><label>Fariinta<textarea required name="message" rows="5" placeholder="Halkan ku qor fariintaada..."></textarea></label><button className="btn gold" type="submit">Dir Fariinta →</button>{sent&&<p className="success">Mahadsanid! Fariintaada waa la diyaariyey.</p>}</form></div></section><section className="map"><div><span>📍</span><b>CARE Primary and Secondary School</b><small>Jidka Afgooye, Wadajir, Muqdisho</small></div></section></>}
 
 function CTA({go}){return <section className="cta"><div className="wrap cta-in"><div><span>DIWAANGELINTA WAY FURAN TAHAY</span><h2>Ma Doonaysaa Inaad Ilmahaaga Ka Mid Dhigto CARE School?</h2></div><Link to="/xiriir" onGo={go} className="btn white">Nala Soo Xiriir <b>→</b></Link></div></section>}
 
-function Footer({go}){return <footer className="footer"><div className="wrap footer-grid"><div><Logo light/><p>Waxaan dhisnaa jiil aqoon leh, anshax leh, una diyaarsan inuu bulshada wax ku biiriyo.</p><div className="footer-social"><span>f</span><span>◉</span><span>▶</span></div></div><div><h3>Xiriirro Degdeg ah</h3>{nav.slice(0,4).map(([t,l])=><Link to={t} onGo={go}>{l}</Link>)}</div><div><h3>Waxbarashada</h3><Link to="/waxbarashada" onGo={go}>Dugsiga Hoose</Link><Link to="/waxbarashada" onGo={go}>Dugsiga Dhexe</Link><Link to="/waxbarashada" onGo={go}>Dugsiga Sare</Link><Link to="/dhacdooyinka" onGo={go}>Dhacdooyinka</Link></div><div><h3>Nala Soo Xiriir</h3><p>📍 Wadajir, Muqdisho, Soomaaliya</p><p>☎ +252 61 234 5678</p><p>✉ info@careschool.so</p></div></div><div className="copyright"><div className="wrap">© 2026 CARE Primary and Secondary School. Xuquuqda oo dhan way dhowran tahay.<span>Asturnaanta • Shuruudaha</span></div></div></footer>}
+function Footer({go}){return <footer className="footer"><div className="wrap footer-grid"><div><Logo light/><p>Waxaan dhisnaa jiil aqoon leh, anshax leh, una diyaarsan inuu bulshada wax ku biiriyo.</p><div className="footer-social"><span>f</span><span>◉</span><span>▶</span></div></div><div><h3>Xiriirro Degdeg ah</h3>{nav.slice(0,4).map(([t,l])=><Link to={t} onGo={go}>{l}</Link>)}</div><div><h3>Waxbarashada</h3><Link to="/waxbarashada" onGo={go}>Dugsiga Hoose</Link><Link to="/waxbarashada" onGo={go}>Dugsiga Dhexe</Link><Link to="/waxbarashada" onGo={go}>Dugsiga Sare</Link><Link to="/dhacdooyinka" onGo={go}>Dhacdooyinka</Link></div><div><h3>Nala Soo Xiriir</h3><p>📍 Jidka Afgooye, Wadajir, Muqdisho</p><p>☎ 0615 486 189</p><p>⌂ Dalladda SAFE</p></div></div><div className="copyright"><div className="wrap">© 2026 CARE Primary and Secondary School. Xuquuqda oo dhan way dhowran tahay.<span>Sawirrada waxbarashada: CARE Soomaaliya</span></div></div></footer>}
 
 export default function App(){const [path,setPath]=useState("/"); const [top,setTop]=useState(false); useEffect(()=>{setPath(location.pathname); const pop=()=>setPath(location.pathname); const scroll=()=>setTop(scrollY>500); addEventListener("popstate",pop);addEventListener("scroll",scroll);return()=>{removeEventListener("popstate",pop);removeEventListener("scroll",scroll)}},[]); function go(to){history.pushState({},"",to);setPath(to);scrollTo({top:0,behavior:"smooth"})} const page=useMemo(()=>({"/":<Home go={go}/>,"/nagu-saabsan":<About go={go}/>,"/waxbarashada":<Academics go={go}/>,"/macallimiinta":<Teachers/>,"/dhacdooyinka":<Events/>,"/gallery":<GalleryPage/>,"/wararka":<News/>,"/xiriir":<Contact/>})[path]||<Home go={go}/>,[path]);return <><Navbar path={path} go={go}/><main key={path}>{page}</main><Footer go={go}/><a className="whatsapp" href="https://wa.me/252612345678" target="_blank" aria-label="WhatsApp">☏<span>Nala hadal</span></a>{top&&<button className="to-top" onClick={()=>scrollTo({top:0,behavior:"smooth"})} aria-label="Kor ugu noqo">↑</button>}</>}

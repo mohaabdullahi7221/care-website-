@@ -2,6 +2,7 @@ import git from "isomorphic-git";
 import http from "isomorphic-git/http/node";
 import fs from "node:fs";
 import path from "node:path";
+const network = { request: (args) => http.request({ ...args, timeout: 60000 }) };
 
 const dir = process.cwd();
 const url = process.env.SITES_REPO_URL;
@@ -15,5 +16,5 @@ for (const [file,, worktree] of files) {
   else await git.add({ fs, dir, filepath: file });
 }
 const sha = await git.commit({ fs, dir, message: "Build CARE School website", author: { name: "Codex Sites", email: "codex-sites@openai.com" } });
-await git.push({ fs, http, dir, url, ref: branch, remoteRef: branch, force: true, onAuth: () => ({ username: "x-access-token", password: token }) });
+await git.push({ fs, http: network, dir, url, ref: branch, remoteRef: branch, force: true, onAuth: () => ({ username: "x-access-token", password: token }) });
 console.log(sha);

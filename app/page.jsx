@@ -3,10 +3,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const IMG = {
-  hero: "/hero.jpg",
-  about: "/classroom.jpg",
-  primary: "/study.png",
-  secondary: "/girls.webp",
+  hero: "/school/students-mixed.jpg",
+  about: "/school/students-outdoor-girls.jpg",
+  primary: "/school/students-indoor-1.jpg",
+  secondary: "/school/students-boys-group.jpg",
 };
 
 const nav = [
@@ -16,39 +16,38 @@ const nav = [
 ];
 
 const teachers = [
-  ["Maxamed Axmed", "Maamulaha Dugsiga", "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"],
-  ["Cabdi Xasan", "Ku-xigeenka Maamulka", "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&w=600&q=80"],
-  ["Aamina Cali", "Macallimadda Sayniska", "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"],
-  ["Axmed Maxamed", "Macallinka Xisaabta", "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=600&q=80"],
-  ["Fadumo Xasan", "Macallimadda Af-Soomaaliga", "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"],
-  ["Cabdiraxmaan Cali", "Macallinka Kombiyuutarka", "https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=600&q=80"],
+  ["Kooxda Maamulka", "Hoggaanka Dugsiga", "/school/students-boys-group.jpg"],
+  ["Macallimiinta Sare", "Hagidda Ardayda", "/school/students-indoor-2.jpg"],
+  ["Ardayda Gabdhaha", "Waxbarasho iyo Horumar", "/school/students-outdoor-girls.jpg"],
+  ["Ardayda Wiilasha", "Waxbarasho iyo Horumar", "/school/students-boys-group.jpg"],
+  ["Bulshada CARE", "Iskaashi iyo Wadajir", "/school/students-outdoor-mixed.jpg"],
+  ["Hawlaha Dugsiga", "Barasho ka baxsan Fasalka", "/school/care-school-event.jpg"],
 ];
 
 const events = [
-  ["Xafladda Qalin-jabinta", "25 Juun 2026", "Maalin lagu maamuusayo dadaalka iyo guusha ardayda fasalka ugu dambeeya.", "/hero.jpg"],
-  ["Tartanka Aqoonta", "18 Luulyo 2026", "Ardaydu waxay ku tartamayaan aqoon, hal-abuur iyo wada-shaqayn.", "/study.png"],
-  ["Maalinta Macallinka", "5 Oktoobar 2026", "Waxaan u mahadcelinaynaa macallimiinta hagta jiilkeenna berri.", "/classroom.jpg"],
-  ["Bandhigga Ardayda", "12 Nofeembar 2026", "Bandhig faneed iyo cilmiyeed ay ardaydu ku soo bandhigaan kartidooda.", "/girls.webp"],
-  ["Imtixaanka Sanadlaha", "8 Diseembar 2026", "Qiimaynta dhammaadka sanad-dugsiyeedka ee heerarka kala duwan.", "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80"],
-  ["Kulanka Waalidiinta", "20 Diseembar 2026", "Kulan lagu xoojinayo iskaashiga dugsiga iyo qoysaska ardayda.", "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"],
+  ["Xafladda Qalin-jabinta", "25 Juun 2026", "Maalin lagu maamuusayo dadaalka iyo guusha ardayda fasalka ugu dambeeya.", "/school/care-school-event.jpg"],
+  ["Tartanka Aqoonta", "18 Luulyo 2026", "Ardaydu waxay ku tartamayaan aqoon, hal-abuur iyo wada-shaqayn.", "/school/students-boys-group.jpg"],
+  ["Maalinta Macallinka", "5 Oktoobar 2026", "Waxaan u mahadcelinaynaa macallimiinta hagta jiilkeenna berri.", "/school/students-indoor-2.jpg"],
+  ["Bandhigga Ardayda", "12 Nofeembar 2026", "Bandhig faneed iyo cilmiyeed ay ardaydu ku soo bandhigaan kartidooda.", "/school/students-outdoor-girls.jpg"],
+  ["Imtixaanka Sanadlaha", "8 Diseembar 2026", "Qiimaynta dhammaadka sanad-dugsiyeedka ee heerarka kala duwan.", "/school/students-indoor-1.jpg"],
+  ["Kulanka Waalidiinta", "20 Diseembar 2026", "Kulan lagu xoojinayo iskaashiga dugsiga iyo qoysaska ardayda.", "/school/students-outdoor-mixed.jpg"],
 ];
 
 const news = [
-  ["Ardayda CARE oo ku guulaysatay tartan aqooneed", "2 Agoosto 2026", "Kooxda dugsigeennu waxay kaalinta koowaad ka gashay tartan ay ka qaybgaleen dugsiyo badan.", "/hero.jpg"],
-  ["Maktabadda dugsiga oo la ballaariyey", "28 Luulyo 2026", "Buugaag cusub iyo meel akhris oo casri ah ayaa loo diyaariyey dhammaan ardayda.", "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80"],
-  ["Barnaamijka beerista iyo ilaalinta deegaanka", "15 Luulyo 2026", "Ardaydu waxay olole cagaaran ka fuliyeen xarunta dugsiga iyo xaafadda ku dhow.", "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=900&q=80"],
+  ["Ardayda CARE oo ka qaybgashay tartan dugsiyeed", "2 Agoosto 2026", "Ardayda dugsigeennu waxay si sharaf leh uga qaybgaleen munaasabad ay isugu yimaadeen dugsiyada gobolka Banaadir.", "/school/care-school-event.jpg"],
+  ["Hawl waxbarasho oo ardayda loo qabtay", "28 Luulyo 2026", "Ardayda CARE waxay ka qaybqaateen hawl kobcinaysa aqoontooda iyo wada-shaqayntooda.", "/school/students-indoor-3.jpg"],
+  ["Ardayda CARE oo booqasho waxbarasho tegay", "15 Luulyo 2026", "Booqashada waxbarashadu waxay ardayda siisay waayo-aragnimo cusub iyo aqoon dheeraad ah.", "/school/students-outdoor-mixed.jpg"],
 ];
 
 const gallery = [
-  ["Ardayda", "/hero.jpg"],
-  ["Macallimiinta", "/classroom.jpg"],
-  ["Xafladaha", "/study.png"],
-  ["Fasallada", "/girls.webp"],
-  ["Tartamada", "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=900&q=80"],
-  ["Hawlaha Dugsiga", "/hero.jpg"],
-  ["Ardayda", "/study.png"],
-  ["Fasallada", "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80"],
-  ["Hawlaha Dugsiga", "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"],
+  ["Ardayda", "/school/students-indoor-1.jpg"],
+  ["Ardayda", "/school/students-outdoor-girls.jpg"],
+  ["Hawlaha Dugsiga", "/school/students-indoor-2.jpg"],
+  ["Ardayda", "/school/students-mixed.jpg"],
+  ["Hawlaha Dugsiga", "/school/students-indoor-3.jpg"],
+  ["Booqashooyinka", "/school/students-outdoor-mixed.jpg"],
+  ["Ardayda", "/school/students-boys-group.jpg"],
+  ["Tartamada", "/school/care-school-event.jpg"],
 ];
 
 function Logo({ light = false }) {

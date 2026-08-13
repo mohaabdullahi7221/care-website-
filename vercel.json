@@ -5,20 +5,33 @@
   "outputDirectory": "dist/client",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/nagu-saabsan", "destination": "/" },
-    { "source": "/waxbarashada", "destination": "/" },
-    { "source": "/macallimiinta", "destination": "/" },
-    { "source": "/dhacdooyinka", "destination": "/" },
-    { "source": "/gallery", "destination": "/" },
-    { "source": "/wararka", "destination": "/" },
-    { "source": "/xiriir", "destination": "/" }
-  ],
-  "headers": [
     {
-      "source": "/(.*)\\.(jpg|jpeg|png|svg|webp)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "source": "/nagu-saabsan",
+      "destination": "/"
+    },
+    {
+      "source": "/waxbarashada",
+      "destination": "/"
+    },
+    {
+      "source": "/macallimiinta",
+      "destination": "/"
+    },
+    {
+      "source": "/dhacdooyinka",
+      "destination": "/"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/"
+    },
+    {
+      "source": "/wararka",
+      "destination": "/"
+    },
+    {
+      "source": "/xiriir",
+      "destination": "/"
     }
   ]
 }

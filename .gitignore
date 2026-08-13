@@ -38,3 +38,7 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+# local build metadata and backup archives
+*.tsbuildinfo
+*.tar.gz

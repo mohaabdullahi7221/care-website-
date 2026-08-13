@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    
+    <meta charset="utf-8">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="BDjyXgYYU5sQJj8ZXB1nhgiRSxSUFc8urxaQutR2">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<meta name='robots' content="NOODP, nofollow, noindex">
+
+
+<link rel='shortcut icon' type='image/x-icon' href="https://arday.com/store/1/FAVICON_arday.png">
+<link rel="manifest" href="/mix-manifest.json?v=4">
+<meta name="theme-color" content="#FFF">
+<!-- Windows Phone -->
+<meta name="msapplication-starturl" content="/">
+<meta name="msapplication-TileColor" content="#FFF">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-title" content="Arday Platform">
+<link rel="apple-touch-icon" href="https://arday.com/store/1/FAVICON_arday.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<!-- Android -->
+<link rel='icon' href='https://arday.com/store/1/FAVICON_arday.png'>
+
+<meta name="application-name" content="Arday Platform">
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Other -->
+<meta name="layoutmode" content="fitscreen/standard">
+<link rel="home" href="https://arday.com">
+
+<!-- Open Graph -->
+<meta property='og:title' content='Page not found'>
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='Page not found'>
+
+
+<meta property='og:site_name' content='https://arday.com/Arday Platform'>
+<meta property='og:image' content='https://arday.com/store/1/FAVICON_arday.png'>
+<meta name='twitter:image' content='https://arday.com/store/1/FAVICON_arday.png'>
+<meta property='og:locale' content='https://arday.com/en_US'>
+<meta property='og:type' content='website'>
+
+<meta name="google-site-verification" content="9Q-mr3sYIZQekBK3ckR10ocjalu1BDxUOa2hwEHhzdg" />
+
+    
+    <title>Page not found | Arday Platform</title>
+
+    <!-- General CSS File -->
+    <link rel="stylesheet" href="/assets/default/vendors/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="/assets/default/vendors/toast/jquery.toast.min.css">
+    <link rel="stylesheet" href="/assets/default/vendors/simplebar/simplebar.css">
+    <link rel="stylesheet" href="/assets/default/css/app.css">
+
+    
+        
+    <style>
+        
+
+        @font-face {
+                      font-family: 'main-font-family';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-display: swap;
+                      src: url(/store/1/fonts/montserrat-regular.woff2) format('woff2');
+                    }@font-face {
+                      font-family: 'main-font-family';
+                      font-style: normal;
+                      font-weight: bold;
+                      font-display: swap;
+                      src: url(/store/1/fonts/montserrat-bold.woff2) format('woff2');
+                    }@font-face {
+                      font-family: 'main-font-family';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-display: swap;
+                      src: url(/store/1/fonts/montserrat-medium.woff2) format('woff2');
+                    }@font-face {
+                      font-family: 'rtl-font-family';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-display: swap;
+                      src: url(/store/1/fonts/Vazir-Regular.woff2) format('woff2');
+                    }@font-face {
+                      font-family: 'rtl-font-family';
+                      font-style: normal;
+                      font-weight: bold;
+                      font-display: swap;
+                      src: url(/store/1/fonts/Vazir-Bold.woff2) format('woff2');
+                    }@font-face {
+                      font-family: 'rtl-font-family';
+                      font-style: normal;
+                      font-weight: 500;
+                      font-display: swap;
+                      src: url(/store/1/fonts/Vazir-Medium.woff2) format('woff2');
+                    }
+
+        :root{
+--primary:#0066cc;
+--primary-border:#0066cc;
+--primary-btn-shadow:rgb(0, 102, 204);
+--primary-btn-color:#ffff00;
+}
+
+    </style>
+
+<style>
+
+    .change{
+
+        font-size: 0.6rem;
+        font-weight: 400;
+        letter-spacing: 0.025rem;
+        font-style: normal;
+        text-transform: none;
+    }
+
+
+</style>
+
+            <style>
+    .pace { -webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; } .pace-inactive { display: none; } .pace .pace-progress { background: #29d; position: fixed; z-index: 2000; top: 0; right: 100%; width: 100%; height: 2px; } .pace .pace-progress-inner { display: block; position: absolute; right: 0px; width: 100px; height: 100%; box-shadow: 0 0 10px #29d, 0 0 5px #29d; opacity: 1.0; -webkit-transform: rotate(3deg) translate(0px, -4px); -moz-transform: rotate(3deg) translate(0px, -4px); -ms-transform: rotate(3deg) translate(0px, -4px); -o-transform: rotate(3deg) translate(0px, -4px); transform: rotate(3deg) translate(0px, -4px); } .pace .pace-activity { display: block; position: fixed; z-index: 2000; top: 15px; right: 15px; width: 14px; height: 14px; border: solid 2px transparent; border-top-color: #29d; border-left-color: #29d; border-radius: 10px; -webkit-animation: pace-spinner 400ms linear infinite; -moz-animation: pace-spinner 400ms linear infinite; -ms-animation: pace-spinner 400ms linear infinite; -o-animation: pace-spinner 400ms linear infinite; animation: pace-spinner 400ms linear infinite; } @-webkit-keyframes pace-spinner { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } } @-moz-keyframes pace-spinner { 0% { -moz-transform: rotate(0deg); transform: rotate(0deg); } 100% { -moz-transform: rotate(360deg); transform: rotate(360deg); } } @-o-keyframes pace-spinner { 0% { -o-transform: rotate(0deg); transform: rotate(0deg); } 100% { -o-transform: rotate(360deg); transform: rotate(360deg); } } @-ms-keyframes pace-spinner { 0% { -ms-transform: rotate(0deg); transform: rotate(0deg); } 100% { -ms-transform: rotate(360deg); transform: rotate(360deg); } } @keyframes pace-spinner { 0% { transform: rotate(0deg); transform: rotate(0deg); } 100% { transform: rotate(360deg); transform: rotate(360deg); } }
+</style>
+
+<script>
+    window.paceOptions = {
+        ajax: false, // disabled
+        document: false, // disabled
+        eventLag: false, // disabled
+    };
+</script>
+<script src="/assets/default/vendors/pace-loading/pace.min.js"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CM8ZXCF29H"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CM8ZXCF29H');
+    </script>
+
+
+
+
+</head>
+
+<body class="">
+    
+ 
+
+<div id="app" class="">
+    
+            <div class="top-navbar d-flex border-bottom">
+    <div class="container d-flex justify-content-between flex-column flex-lg-row">
+        <div class="top-contact-box border-bottom d-flex flex-column flex-md-row align-items-center justify-content-center">
+
+            
+            <div class="d-flex align-items-center justify-content-between justify-content-md-center">
+
+                
+                
+
+                                    <div class="mr-15 mx-md-20"></div>
+                
+
+                <form action="/search" method="get" class="form-inline my-2 my-lg-0 navbar-search position-relative">
+                    <input class="form-control mr-5 rounded" type="text" name="search" placeholder="Search..." aria-label="Search">
+
+                    <button type="submit" class="btn-transparent d-flex align-items-center justify-content-center search-icon">
+                        <i data-feather="search" width="20" height="20" class="mr-10"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="xs-w-100 d-flex align-items-center justify-content-between ">
+            <div class="d-flex">
+
+                <div class="dropdown">
+    <button type="button" disabled class="btn btn-transparent dropdown-toggle" id="navbarShopingCart" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu" aria-labelledby="navbarShopingCart">
+        <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+            <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+        </div>
+        <div class="h-100">
+            <div class="navbar-shopping-cart h-100" data-simplebar>
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+                        <span class="">Your cart is empty</span>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="border-left mx-5 mx-lg-15"></div>
+
+                <div class="dropdown">
+    <button type="button" class="btn btn-transparent dropdown-toggle" disabled id="navbarNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu pt-20" aria-labelledby="navbarNotification">
+        <div class="d-flex flex-column h-100">
+            <div class="mb-auto navbar-notification-card" data-simplebar>
+                <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                    <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+                </div>
+
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+                        <span class="">Empty notifications</span>
+                    </div>
+                
+            </div>
+
+                    </div>
+    </div>
+</div>
+            </div>
+
+            
+            <div class="d-flex align-items-center ml-md-50">
+        <a href="/login" class="py-5 px-10 mr-10 text-dark-blue font-14">Login</a>
+        <a href="/register" class="py-5 px-10 text-dark-blue font-14">Register</a>
+    </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="navbarVacuum"></div>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between w-100">
+
+            <a class="navbar-brand navbar-order d-flex align-items-center justify-content-center mr-0 " href="/">
+                                    <img src="/store/1/Arday-HEADER Fnl (1).png" class="img-cover" alt="site logo">
+                            </a>
+
+            <button class="navbar-toggler navbar-order" type="button" id="navbarToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="mx-lg-30 d-none d-lg-flex flex-grow-1 navbar-toggle-content " id="navbarContent">
+                <div class="navbar-toggle-header text-right d-lg-none">
+                    <button class="btn-transparent" id="navbarClose">
+                        <i data-feather="x" width="32" height="32"></i>
+                    </button>
+                </div>
+
+                <ul class="navbar-nav mr-auto d-flex align-items-center">
+                                            <li class="mr-lg-25">
+                            <div class="menu-category">
+                                <ul>
+                                    <li class="cursor-pointer user-select-none d-flex xs-categories-toggle">
+                                        <i data-feather="grid" width="20" height="20" class="mr-10 d-none d-lg-block"></i>
+                                        Disciplines
+
+                                        <ul class="cat-dropdown-menu">
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/agriculture-veterinary" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Agriculture/agriculture_forest.png" class="cat-dropdown-menu-icon mr-10" alt="Agriculture &amp; Veterinary icon">
+                                                            Agriculture &amp; Veterinary
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/agriculture-veterinary/agriculture">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Agriculture/agriculture_forest.png" class="cat-dropdown-menu-icon mr-10" alt="Agriculture icon">
+                                                                        
+                                                                        Agriculture
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/agriculture-veterinary/veterinary-science">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Agriculture/animal_science.png" class="cat-dropdown-menu-icon mr-10" alt="Veterinary icon">
+                                                                        
+                                                                        Veterinary
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/agriculture-veterinary/food-technology">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Agriculture/food_tech.png" class="cat-dropdown-menu-icon mr-10" alt="Food Technology icon">
+                                                                        
+                                                                        Food Technology
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/architecture-and-design" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Architecture/architecture.png" class="cat-dropdown-menu-icon mr-10" alt="Architecture &amp; Planning icon">
+                                                            Architecture &amp; Planning
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/architecture-and-design/architecture">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Architecture//architecture.png" class="cat-dropdown-menu-icon mr-10" alt="Architecture icon">
+                                                                        
+                                                                        Architecture
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/architecture-and-design/urban-planning">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Architecture/urban_plan.png" class="cat-dropdown-menu-icon mr-10" alt="Urban Planning icon">
+                                                                        
+                                                                        Urban Planning
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/architecture-and-design/design">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Architecture/design.png" class="cat-dropdown-menu-icon mr-10" alt="Design icon">
+                                                                        
+                                                                        Design
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/business-and-management" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Business/businessmgt.png" class="cat-dropdown-menu-icon mr-10" alt="Business &amp; Management icon">
+                                                            Business &amp; Management
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/business-and-management/business-administration">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Business/businessmgt.png" class="cat-dropdown-menu-icon mr-10" alt="Business Administration icon">
+                                                                        
+                                                                        Business Administration
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/business-and-management/finance-and-banking">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Business/finance.png" class="cat-dropdown-menu-icon mr-10" alt="Finance &amp; Banking icon">
+                                                                        
+                                                                        Finance &amp; Banking
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/business-and-management/management-studies">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Business/magtment.png" class="cat-dropdown-menu-icon mr-10" alt="Management Studies icon">
+                                                                        
+                                                                        Management Studies
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/business-and-management/accounting">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Business/accounting.png" class="cat-dropdown-menu-icon mr-10" alt="Accounting icon">
+                                                                        
+                                                                        Accounting
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/computer-science-and-it" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/CS/cse-it.png" class="cat-dropdown-menu-icon mr-10" alt="Computer Science &amp; IT icon">
+                                                            Computer Science &amp; IT
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/computer-science-and-it/information-technology">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/CS/it-tec.png" class="cat-dropdown-menu-icon mr-10" alt="Information Technology icon">
+                                                                        
+                                                                        Information Technology
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/computer-science-and-it/computer-sciences">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/CS/cse.png" class="cat-dropdown-menu-icon mr-10" alt="Computer Sciences icon">
+                                                                        
+                                                                        Computer Sciences
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/computer-science-and-it/information-systems">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/CS/IS.png" class="cat-dropdown-menu-icon mr-10" alt="Information Systems icon">
+                                                                        
+                                                                        Information Systems
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/computer-science-and-it/computer-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/CS/bis.png" class="cat-dropdown-menu-icon mr-10" alt="Computer Engineering icon">
+                                                                        
+                                                                        Computer Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/engineering-and-technology" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Eng/eng-tech.png" class="cat-dropdown-menu-icon mr-10" alt="Engineering &amp; Technology icon">
+                                                            Engineering &amp; Technology
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/civil-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/civil_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Civil Engineering icon">
+                                                                        
+                                                                        Civil Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/mechanical-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/mech-eng.png" class="cat-dropdown-menu-icon mr-10" alt="Mechanical Engineering icon">
+                                                                        
+                                                                        Mechanical Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/electrical-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/electrical_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Electrical Engineering icon">
+                                                                        
+                                                                        Electrical Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/Electrical-Electronics-Engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/electrical_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Electrical &amp; Electronics Engineering icon">
+                                                                        
+                                                                        Electrical &amp; Electronics Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/communications-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/comm_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Communications Engineering icon">
+                                                                        
+                                                                        Communications Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/industrial-and-systems-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/industrial_sys_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Industrial Engineering icon">
+                                                                        
+                                                                        Industrial Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/environmental-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/env-eng.png" class="cat-dropdown-menu-icon mr-10" alt="Environmental Engineering icon">
+                                                                        
+                                                                        Environmental Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/chemical-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/chem_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Chemical Engineering icon">
+                                                                        
+                                                                        Chemical Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/engineering-and-technology/marine-engineering">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Eng/marine_eng.png" class="cat-dropdown-menu-icon mr-10" alt="Marine Engineering icon">
+                                                                        
+                                                                        Marine Engineering
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/environmental-studies-and-earth-sciences" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Environmental/environmental_earth.png" class="cat-dropdown-menu-icon mr-10" alt="Environmental &amp; Earth Sciences icon">
+                                                            Environmental &amp; Earth Sciences
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/environmental-studies-and-earth-sciences/earth-sciences">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Environmental/earth_sciences.png" class="cat-dropdown-menu-icon mr-10" alt="Earth Sciences icon">
+                                                                        
+                                                                        Earth Sciences
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/environmental-studies-and-earth-sciences/environmental-sciences">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Environmental/env_science.png" class="cat-dropdown-menu-icon mr-10" alt="Environmental Sciences icon">
+                                                                        
+                                                                        Environmental Sciences
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/environmental-studies-and-earth-sciences/environmental-studies">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Environmental/ecology.png" class="cat-dropdown-menu-icon mr-10" alt="Environmental Studies icon">
+                                                                        
+                                                                        Environmental Studies
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/humanities" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Arts/humanity.png" class="cat-dropdown-menu-icon mr-10" alt="Arts &amp; Humanities icon">
+                                                            Arts &amp; Humanities
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/islamic-studies">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/islamic_studies.png" class="cat-dropdown-menu-icon mr-10" alt="Islamic Studies icon">
+                                                                        
+                                                                        Islamic Studies
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/literature-and-linguistics">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/literature.png" class="cat-dropdown-menu-icon mr-10" alt="Literature &amp; Linguistics icon">
+                                                                        
+                                                                        Literature &amp; Linguistics
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/history">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/history.png" class="cat-dropdown-menu-icon mr-10" alt="History icon">
+                                                                        
+                                                                        History
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/philosophy">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/philosophy.png" class="cat-dropdown-menu-icon mr-10" alt="Philosophy icon">
+                                                                        
+                                                                        Philosophy
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/fine-arts">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/visual_arts.png" class="cat-dropdown-menu-icon mr-10" alt="Fine Arts icon">
+                                                                        
+                                                                        Fine Arts
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/journalism-and-mass-communication">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/journalism_s.png" class="cat-dropdown-menu-icon mr-10" alt="Journalism &amp; Mass Communication icon">
+                                                                        
+                                                                        Journalism &amp; Mass Communication
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/humanities/media-studies-and-publishing">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Arts/media_studies.png" class="cat-dropdown-menu-icon mr-10" alt="Media Studies &amp; Publishing icon">
+                                                                        
+                                                                        Media Studies &amp; Publishing
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/sharia-and-law" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Sharia/law_.png" class="cat-dropdown-menu-icon mr-10" alt="Sharia &amp; Law icon">
+                                                            Sharia &amp; Law
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/sharia-and-law/Sharia-Law">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Sharia/public-law.png" class="cat-dropdown-menu-icon mr-10" alt="Sharia &amp; Law icon">
+                                                                        
+                                                                        Sharia &amp; Law
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/sharia-and-law/Law">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Sharia/law_.png" class="cat-dropdown-menu-icon mr-10" alt="Law icon">
+                                                                        
+                                                                        Law
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/sharia-and-law/sharia">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Sharia/international-law.png" class="cat-dropdown-menu-icon mr-10" alt="Sharia icon">
+                                                                        
+                                                                        Sharia
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/sharia-and-law/legal-studies">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Sharia//legal_studies.png" class="cat-dropdown-menu-icon mr-10" alt="Legal Studies icon">
+                                                                        
+                                                                        Legal Studies
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/medicine-and-health" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Medicine/medine_health.png" class="cat-dropdown-menu-icon mr-10" alt="Medicine &amp; Health Sciences icon">
+                                                            Medicine &amp; Health Sciences
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/medicine-and-health/medicine">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Medicine/document.png" class="cat-dropdown-menu-icon mr-10" alt="Medicine icon">
+                                                                        
+                                                                        Medicine
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/medicine-and-health/dentistry">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Medicine/dentistry.png" class="cat-dropdown-menu-icon mr-10" alt="Dentistry icon">
+                                                                        
+                                                                        Dentistry
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/medicine-and-health/health-science">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Medicine/medine_health.png" class="cat-dropdown-menu-icon mr-10" alt="Health Science icon">
+                                                                        
+                                                                        Health Science
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/medicine-and-health/public-health">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Medicine/public_health.png" class="cat-dropdown-menu-icon mr-10" alt="Public Health icon">
+                                                                        
+                                                                        Public Health
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/medicine-and-health/pharmacy">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Medicine/pharmacy.png" class="cat-dropdown-menu-icon mr-10" alt="Pharmacy icon">
+                                                                        
+                                                                        Pharmacy
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/natural-sciences-and-education" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Education/education.png" class="cat-dropdown-menu-icon mr-10" alt="Education &amp; Natural Sciences icon">
+                                                            Education &amp; Natural Sciences
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/natural-sciences-and-education/natural-sciences">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Education/natural_sci.png" class="cat-dropdown-menu-icon mr-10" alt="Natural Sciences icon">
+                                                                        
+                                                                        Natural Sciences
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/natural-sciences-and-education/applied-science">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Education/applied_math.png" class="cat-dropdown-menu-icon mr-10" alt="Applied Science icon">
+                                                                        
+                                                                        Applied Science
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/natural-sciences-and-education/education">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Education/biochemistr.png" class="cat-dropdown-menu-icon mr-10" alt="Education icon">
+                                                                        
+                                                                        Education
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                            <li style="font-size: 12px;font-weight: 300;">
+                                                    <a href="/categories/social-sciences" class="js-has-subcategory">
+                                                        <div class="d-flex align-items-center">
+                                                            <img src="/store/1/default_images/categories_icons/Social/social_.png" class="cat-dropdown-menu-icon mr-10" alt="Social Sciences icon">
+                                                            Social Sciences
+                                                        </div>
+
+                                                                                                                    <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
+                                                            <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
+                                                                                                            </a>
+
+                                                                                                            <ul class="sub-menu" data-simplebar >
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/economics">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/economics.png" class="cat-dropdown-menu-icon mr-10" alt="Economics icon">
+                                                                        
+                                                                        Economics
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/public-administration">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/political_sci.png" class="cat-dropdown-menu-icon mr-10" alt="Public Administration icon">
+                                                                        
+                                                                        Public Administration
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/international-relations">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/internationa-rel.png" class="cat-dropdown-menu-icon mr-10" alt="International Relations icon">
+                                                                        
+                                                                        International Relations
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/geography">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/geography.png" class="cat-dropdown-menu-icon mr-10" alt="Geography icon">
+                                                                        
+                                                                        Geography
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/sociology">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/Social-Sciences/socialogy.png" class="cat-dropdown-menu-icon mr-10" alt="Sociology icon">
+                                                                        
+                                                                        Sociology
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/criminology">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/criminology.png" class="cat-dropdown-menu-icon mr-10" alt="Criminology icon">
+                                                                        
+                                                                        Criminology
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/public-policy">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/public_policy.png" class="cat-dropdown-menu-icon mr-10" alt="Public Policy icon">
+                                                                        
+                                                                        Public Policy
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li   style="font-size: 12px;font-weight: 300;">
+                                                                    <a href="/categories/social-sciences/political-science">
+                                                                                                                                                    <img src="/store/1/default_images/categories_icons/Social/political_sci.png" class="cat-dropdown-menu-icon mr-10" alt="Political Science icon">
+                                                                        
+                                                                        Political Science
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    
+                                                                        <li class="nav-item">
+                                <a class="nav-link" href="/courses">Courses</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="/organizations">Institutions</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="/scholarships">Scholarships</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </li>
+                                                            </ul>
+            </div>
+
+            <div class="nav-icons-or-start-live navbar-order d-flex align-items-center justify-content-end">
+
+                                    <a href="/courses" class="d-none d-lg-flex btn btn-sm btn-primary nav-start-a-live-btn">
+                        Find Courses
+                    </a>
+
+                    <a href="/courses" class="d-flex d-lg-none text-primary nav-start-a-live-btn font-14">
+                        Find Courses
+                    </a>
+                
+                
+                <div class="d-none nav-notify-cart-dropdown top-navbar">
+                    <div class="dropdown">
+    <button type="button" disabled class="btn btn-transparent dropdown-toggle" id="navbarShopingCart" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu" aria-labelledby="navbarShopingCart">
+        <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+            <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+        </div>
+        <div class="h-100">
+            <div class="navbar-shopping-cart h-100" data-simplebar>
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+                        <span class="">Your cart is empty</span>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+                    <div class="border-left mx-15"></div>
+
+                    <div class="dropdown">
+    <button type="button" class="btn btn-transparent dropdown-toggle" disabled id="navbarNotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+
+            </button>
+
+    <div class="dropdown-menu pt-20" aria-labelledby="navbarNotification">
+        <div class="d-flex flex-column h-100">
+            <div class="mb-auto navbar-notification-card" data-simplebar>
+                <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                    <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+                </div>
+
+                                    <div class="d-flex align-items-center text-center py-50">
+                        <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+                        <span class="">Empty notifications</span>
+                    </div>
+                
+            </div>
+
+                    </div>
+    </div>
+</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+    
+        
+    <section class="my-50 container text-center">
+        <div class="row justify-content-md-center">
+            <div class="col col-md-6">
+                <img src="/store/1/default_images/404.svg" class="img-cover " alt="">
+            </div>
+        </div>
+
+        <h2 class="mt-25 font-36">Page not found!</h2>
+        <p class="mt-25 font-16">Sorry, this page is not available...</p>
+    </section>
+
+            <footer class="footer bg-secondary position-relative user-select-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class=" footer-subscribe d-block d-md-flex align-items-center justify-content-between">
+                    <div class="flex-grow-1">
+                        <strong>Join us today</strong>
+                        <span class="d-block mt-5 text-white">#We will send scholarships and job opportunities to your email.</span>
+                    </div>
+                    <div class="subscribe-input bg-white p-10 flex-grow-1 mt-30 mt-md-0">
+                        <form action="/newsletters" method="post">
+                            
+                            <input type="hidden" name="_token" value="BDjyXgYYU5sQJj8ZXB1nhgiRSxSUFc8urxaQutR2">
+
+                            <div class="form-group d-flex align-items-center m-0">
+                                <div class="w-100">
+                                    <input type="text" name="newsletter_email" class="form-control border-0 " placeholder="Enter your email here"/>
+                                                                    </div>
+                                <button type="submit" class="btn btn-primary rounded-pill">Join</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">Arday.com</span>
+                        
+                                                    <div class="mt-20">
+                                <div style="font-family: Consolas, &quot;Courier New&quot;, monospace; line-height: 19px; white-space: pre;"><div style=""><span style="font-family: &quot;Segoe UI&quot;;"><font color="#ffffff">Find and Search Courses, </font></span></div><div style=""><span style="font-family: &quot;Segoe UI&quot;;"><font color="#ffffff">Universities, Institutes </font></span></div><div style=""><span style="font-family: &quot;Segoe UI&quot;;"><font color="#ffffff">and Schools in Somalia. </font></span></div><div style=""><span style="font-family: &quot;Segoe UI&quot;;"><font color="#ffffff">Explore Disciplines and </font></span></div><div style=""><font color="#ffffff"><span style="font-family: &quot;Segoe UI&quot;;">compare top courses </span><span style="font-family: &quot;Segoe UI&quot;;">to </span></font></div><div style=""><span style="font-family: &quot;Segoe UI&quot;;"><font color="#ffffff">shape your educational journey.</font></span></div><div style="background-color: rgb(31, 31, 31); color: rgb(204, 204, 204);"></div></div>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">Quick Links</span>
+                        
+                                                    <div class="mt-20">
+                                <p><a href="/login"><font color="#ffffff">- Login</font></a></p><p><font color="#ffffff"><a href="/register"><font color="#ffffff">- Register</font></a><br></font></p><p><a href="/blog"><font color="#ffffff">- Blog</font></a></p><p><font color="#ffffff">-<a href="/forums"><font color="#ffffff">Forums</font></a></font><a href="/blog"><font color="#ffffff"><br></font></a></p><p><a href="/pages/privacy-policy" style=""><font color="#ffffff" style="">- Privacy Policy</font></a></p><p><a href="/pages/terms" style=""><font color="#ffffff">- Terms &amp; rules</font></a></p><p><font color="#ffffff"><a href="/pages/terms" style=""><font color="#ffffff">-</font></a>&nbsp;<a href="/pages/community-guidlines" target="_blank"><font color="#ffffff">Community Guidelines</font></a></font></p><p><font color="#ffffff"><font color="#ffffff"><a href="/pages/community-guidlines" target="_blank"><font color="#ffffff">-</font>&nbsp;</a><a href="/pages/cookie-policy" target="_blank"><font color="#ffffff">Cookie Policy</font></a></font><a href="/pages/cookie-policy" target="_blank"></a><a href="/pages/cookie-policy" target="_blank"></a></font></p><p><a href="/pages/about" style=""><font color="#ffffff">- About us</font></a></p><p><font color="#ffffff">-&nbsp;<a href="/associations" style=""><font style="" color="#ffffff">Associations</font></a></font></p><p><font color="#ffffff">-</font><a href="/serviceRequest" target="_blank"><font color="#ffffff">Become a Member</font></a><br></p>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">Explore Courses</span>
+                        
+                                                    <div class="mt-20">
+                                <p><a href="/disciplines"><font color="#ffffff">Disciplines</font></a><a href="/specializations"><font color="#ffffff"><br></font></a></p><p><a href="/specializations"><font color="#ffffff">Specializations</font></a><a href="/courses/" style=""><font color="#ffffff"><br></font></a></p><p><a href="/courses/" style=""><font color="#ffffff">All Courses</font></a></p><p><a href="/courses/bachelor" style=""><font color="#ffffff">Bachelor Courses</font></a></p><p><a href="/courses/master" style=""><font color="#ffffff">Master Courses</font></a></p><p><a href="/courses/diploma" style=""><font color="#ffffff">Diploma Courses</font></a></p><p><a href="/courses/foundation" style=""><font color="#ffffff">Foundation Courses</font></a></p><p><a href="/courses/phd" style="color: rgb(255, 255, 255);"><font color="#ffffff">PhD Courses</font></a><a href="/courses/foundation" style="color: rgb(255, 255, 255);"><br></a><a href="/courses/online-courses" style=""><font color="#ffffff">Online Courses</font></a><br></p>
+                            </div>
+                                                            </div>
+                            <div class="col-6 col-md-3">
+                                                                        <span class="header d-block text-white font-weight-bold">More Quick Links</span>
+                        
+                                                    <div class="mt-20">
+                                <p style="text-align: justify;"><a href="https://arday.com/courses/top-courses" target="_blank" style=""><font style="" color="#ffffff">Top Courses in Somalia</font></a></p><p style="text-align: justify;"><a href="https://arday.com/courses/full-time-courses" target="_blank"><font color="#ffffff">Full Time Courses</font></a></p><p style="text-align: justify;"><a href="https://arday.com/courses/part-time-courses" target="_blank"><font color="#ffffff">Part Time Courses</font></a></p><p style="text-align: justify;"><a href="https://arday.com/courses/distance-courses" target="_blank"><font color="#ffffff">Distance Courses</font></a></p><p style="text-align: justify;"><a href="https://arday.com/scholarships" target="_blank"><font color="#ffffff">Scholarships</font></a></p><p style="text-align: justify;"><a href="https://arday.com/universities" target="_blank"><font color="#ffffff">Top Universities in Somalia</font></a></p><p style="text-align: justify;"><a href="https://arday.com/colleges" target="_blank"><font color="#ffffff">Top Colleges</font></a></p><p style="text-align: justify;"><a href="https://arday.com/schools" target="_blank"><font color="#ffffff">Top Schools in Somalia</font></a></p><p style="text-align: justify;"><font color="#ffffff"><a href="https://arday.com/institutes" target="_blank" style=""><font color="#ffffff">Top Institutes in Somalia</font></a><br></font><br></p>
+                            </div>
+                                                            </div>
+            
+        </div>
+
+        <div class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between">
+            <div class="footer-logo">
+                <a href="/">
+                                            <img src="/store/1/Arday-HEADER Fnl (1).png" class="img-cover" alt="footer logo">
+                                    </a>
+            </div>
+            <div class="footer-social">
+                                                            <a href="https://jazeerauniversity.edu.so/">
+                            <img src="/store/1/default_images/home_sections_banners/club_points_banner.png" alt="Jazeera University" class="mr-15">
+                        </a>
+                                            <a href="https://www.facebook.com/arday.so">
+                            <img src="/store/1/default_images/social/facebook.svg" alt="Facebook" class="mr-15">
+                        </a>
+                                            <a href="https://api.whatsapp.com/send/?phone=252615054756&amp;text=I%20need%20information">
+                            <img src="/store/1/default_images/social/whatsapp.svg" alt="Whatsapp" class="mr-15">
+                        </a>
+                                            <a href="https://www.instagram.com/arday.so">
+                            <img src="/store/1/default_images/social/instagram.svg" alt="Instagram" class="mr-15">
+                        </a>
+                                                </div>
+        </div>
+    </div>
+
+            <div class="footer-copyright-card">
+            <div class="container d-flex align-items-center justify-content-between py-15">
+                <div class="font-14 text-white">
+                
+                 <span class="footer_ham_small_copyright">© 2026 Arday.com - All rights are reserved.</span>
+               
+                
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center">
+                                            <div class="d-flex align-items-center text-white font-14">
+                            <i data-feather="phone" width="20" height="20" class="mr-10"></i>
+                            +252615535400
+                        </div>
+                    
+                                            <div class="border-left mx-5 mx-lg-15 h-100"></div>
+
+                        <div class="d-flex align-items-center text-white font-14">
+                            <i data-feather="mail" width="20" height="20" class="mr-10"></i>
+                            info@arday.com
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    
+</footer>
+    
+    
+    
+    
+   
+
+</div>
+<!-- Template JS File -->
+<script src="/assets/default/js/app.js"></script>
+<script src="/assets/default/vendors/feather-icons/dist/feather.min.js"></script>
+<script src="/assets/default/vendors/moment.min.js"></script>
+<script src="/assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="/assets/default/vendors/toast/jquery.toast.min.js"></script>
+<script type="text/javascript" src="/assets/default/vendors/simplebar/simplebar.min.js"></script>
+
+    <div class="cookie-security-dialog p-20 bg-gray rounded-lg">
+        <h3 class="font-14 font-weight-bold text-white">Your privacy matters</h3>
+        <p class="mt-5 text-white font-12">Cookies and similar technologies are used on our sites to personalize content and ads. You can find further details and change your personal settings below. By clicking OK, or by clicking any content on our sites, you agree to the use of these cookies and similar technologies.</p>
+
+        <div class="mt-10 d-flex flex-wrap align-items-center">
+            <button type="button" class="js-accept-all-cookies btn btn-primary btn-sm flex-grow-1 mr-0 mr-md-5">Accept all cookies</button>
+            <button type="button" class="js-cookie-customize-settings btn btn-light btn-sm flex-grow-1 mt-10 mt-md-0">Customize settings</button>
+        </div>
+    </div>
+
+    <div id="cookieSecurityModal" class="d-none">
+        <h3 class="section-title after-line font-20 text-dark-blue mb-10">GDPR</h3>
+
+        <p class="mt-10 cookie-security-modal-description"><p>When you visit any of our websites, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and manage your preferences. Please note, that blocking some types of cookies may impact your experience of the site and the services we are able to offer.</p></p>
+
+                    <form class="js-cookie-form-customize-inputs mt-25">
+
+                                    
+                    <div class="cookie-settings-modal-items-card mb-15">
+                        <div class="form-group d-flex align-items-center mb-0">
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" name="settings" value="strictly_necessary" class="custom-control-input"  id="cookieModalItemdDRjfkGvQfFzQJpa_record">
+                                <label class="custom-control-label" for="cookieModalItemdDRjfkGvQfFzQJpa_record"></label>
+                            </div>
+                            <label class="cursor-pointer font-14 text-gray mb-0 " for="cookieModalItemdDRjfkGvQfFzQJpa_record">Strictly Necessary</label>
+
+                            
+                                                            <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                    <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                                </button>
+                                                    </div>
+
+                        <ul class="cookie-settings-modal-items-card__description">
+                            <li class="font-12 text-gray">These cookies are necessary for our website to function properly and cannot be switched off in our systems. They are usually only set in response to actions made by you that amount to a request for services, such as setting your privacy preferences, logging in or filling in forms, or where they’re essential to providing you with a service you have requested. You cannot opt out of these cookies. You can set your browser to block or alert you about these cookies, but if you do, some parts of the site will not then work. These cookies do not store any personally identifiable information.</li>
+                        </ul>
+                    </div>
+
+                                    
+                    <div class="cookie-settings-modal-items-card mb-15">
+                        <div class="form-group d-flex align-items-center mb-0">
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" name="settings" value="performance_cookies" class="custom-control-input"  id="cookieModalItemmOzJowgvTnWFlRzz_record">
+                                <label class="custom-control-label" for="cookieModalItemmOzJowgvTnWFlRzz_record"></label>
+                            </div>
+                            <label class="cursor-pointer font-14 text-gray mb-0 " for="cookieModalItemmOzJowgvTnWFlRzz_record">Performance Cookies</label>
+
+                            
+                                                            <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                    <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                                </button>
+                                                    </div>
+
+                        <ul class="cookie-settings-modal-items-card__description">
+                            <li class="font-12 text-gray">These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site, which helps us optimize your experience. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not be able to use your data in this way.</li>
+                        </ul>
+                    </div>
+
+                                    
+                    <div class="cookie-settings-modal-items-card mb-15">
+                        <div class="form-group d-flex align-items-center mb-0">
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" name="settings" value="functional_cookies" class="custom-control-input"  id="cookieModalItemXBMtdYaeSrqMicTH_record">
+                                <label class="custom-control-label" for="cookieModalItemXBMtdYaeSrqMicTH_record"></label>
+                            </div>
+                            <label class="cursor-pointer font-14 text-gray mb-0 " for="cookieModalItemXBMtdYaeSrqMicTH_record">Functional Cookies</label>
+
+                            
+                                                            <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                    <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                                </button>
+                                                    </div>
+
+                        <ul class="cookie-settings-modal-items-card__description">
+                            <li class="font-12 text-gray">These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third-party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</li>
+                        </ul>
+                    </div>
+
+                                    
+                    <div class="cookie-settings-modal-items-card mb-15">
+                        <div class="form-group d-flex align-items-center mb-0">
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" name="settings" value="targeting_cookies" class="custom-control-input"  id="cookieModalItemXlLqzsvNpRqdcNWP_record">
+                                <label class="custom-control-label" for="cookieModalItemXlLqzsvNpRqdcNWP_record"></label>
+                            </div>
+                            <label class="cursor-pointer font-14 text-gray mb-0 " for="cookieModalItemXlLqzsvNpRqdcNWP_record">Targeting Cookies</label>
+
+                            
+                                                            <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                    <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                                </button>
+                                                    </div>
+
+                        <ul class="cookie-settings-modal-items-card__description">
+                            <li class="font-12 text-gray">These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.</li>
+                        </ul>
+                    </div>
+
+                
+            </form>
+        
+        <div class="d-flex flex-wrap align-items-center mt-20 pt-15 border-top">
+            <button type="button" class="js-store-customize-cookies d-inline-flex d-md-none btn btn-primary btn-sm">Confirm</button>
+            <button type="button" class="js-store-customize-cookies d-none d-md-inline-flex btn btn-primary btn-sm">Confirm my choices</button>
+
+            <button type="button" class="js-accept-all-cookies d-inline-flex d-md-none btn btn-outline-primary btn-sm mx-15">Accept all</button>
+            <button type="button" class="js-accept-all-cookies d-none d-md-inline-flex btn btn-outline-primary btn-sm mx-15">Accept all cookies</button>
+
+            <button type="button" class="btn-transparent close-swl ml-auto font-14 text-danger">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        var oopsLang = 'Oops...';
+        var somethingWentWrongLang = 'Something went wrong...';
+    </script>
+    <script type="text/javascript" src="/assets/default/js/parts/cookie-security.min.js"></script>
+
+
+<script>
+    var deleteAlertTitle = 'Are you sure?';
+    var deleteAlertHint = 'This action cannot be undone!';
+    var deleteAlertConfirm = 'Delete';
+    var deleteAlertCancel = 'Cancel';
+    var deleteAlertSuccess = 'Success';
+    var deleteAlertFail = 'Failed';
+    var deleteAlertFailHint = 'Error while deleting item!';
+    var deleteAlertSuccessHint = 'Item successfully deleted.';
+    var forbiddenRequestToastTitleLang = '&quot;FORBIDDEN&quot; Request';
+    var forbiddenRequestToastMsgLang = 'You not access to this content.';
+</script>
+
+
+    <link href="/assets/default/vendors/flagstrap/css/flags.css" rel="stylesheet">
+    <script src="/assets/default/vendors/flagstrap/js/jquery.flagstrap.min.js"></script>
+    <script src="/assets/default/js/parts/top_nav_flags.min.js"></script>
+    <script src="/assets/default/js/parts/navbar.min.js"></script>
+
+<script src="/assets/default/js/parts/main.min.js"></script>
+
+<script>
+    
+    is a versatile scripting language primarily used for creating dynamic and interactive content on web pages. It allows developers to implement complex features such as real-time updates, interactive maps, animated graphics, and more.
+</script>
+</body>
+</html>

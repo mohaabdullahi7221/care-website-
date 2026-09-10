@@ -41,6 +41,10 @@ export const teachers = [
 ];
 
 export const events = [
+  ["Dood Cilmiyeed oo Ardayda CARE dhexmartay", "Dood Cilmiyeed", "Ardayda CARE waxay dhexmaraan dood cilmiyeed lagu kobcinayo aqoonta, kalsoonida iyo hadalka.", "/images/debate-girls-1.jpg"],
+  ["Ardayda Gabdhaha oo ka Qaybgalay Doodda Cilmiyeed", "Dood Cilmiyeed", "Gabdhaha CARE waxay si firfircoon uga qaybgaleen doodda, iyagoo muujinaya aqoon iyo geesinnimo.", "/images/debate-girls-audience.jpg"],
+  ["Ardayda Wiilasha oo ka Qaybgalay Doodda Cilmiyeed", "Dood Cilmiyeed", "Wiilasha CARE waxay dhageysteen oo ka qaybqaateen dood cilmiyeed lagu xoojinayo fikirka iyo wada-hadalka.", "/images/debate-boys-2.jpg"],
+  ["Gudiga Doodda oo Qiimeeyey Ardayda", "Dood Cilmiyeed", "Gudiga dugsiga ayaa ardayda ku qiimeeyey doodda cilmiyeed ee Dugsiga Toddobaadka.", "/images/debate-panel-1.jpg"],
   ["Macallimiinta CARE oo ka Qaybgalay Shirweynaha Waxbarashada", "Shir Waxbarasho", "Macallimiinta CARE waxay ka qaybgaleen shirweynaha waxbarashada dugsiyada Gobolka Banaadir.", "/images/education-forum-attendees.jpeg"],
   ["Abaalmarinta Ardayda Dadaalka Badan", "Abaalmarin Arday", "Ardayda dadaalka iyo natiijada wanaagsan muujisay ayaa lagu dhiirrigeliyey hadiyado iyo aqoonsi.", "/images/girls-awards.jpeg"],
   ["Ardayda STEM oo Booqday Xarunta Jaamacadda Jamhuriya", "Booqasho Waxbarasho", "Ardayda STEM ee Dugsiga CARE ayaa booqasho waxbarasho ku tagay xarunta Jaamacadda Jamhuriya.", "/images/stem-exhibition.jpeg"],
@@ -72,6 +76,24 @@ export const news = [
 ];
 
 export const gallery = [
+  ["Tartamada", "/images/debate-girls-1.jpg"],
+  ["Tartamada", "/images/debate-girls-2.jpg"],
+  ["Tartamada", "/images/debate-girls-niqab.jpg"],
+  ["Tartamada", "/images/debate-girls-audience.jpg"],
+  ["Tartamada", "/images/debate-girls-camera.jpg"],
+  ["Tartamada", "/images/debate-girls-hall.jpg"],
+  ["Tartamada", "/images/debate-boys-1.jpg"],
+  ["Tartamada", "/images/debate-boys-2.jpg"],
+  ["Tartamada", "/images/debate-boys-3.jpg"],
+  ["Tartamada", "/images/debate-panel-1.jpg"],
+  ["Tartamada", "/images/debate-panel-2.jpg"],
+  ["Tartamada", "/images/debate-panel-3.jpg"],
+  ["Tartamada", "/images/debate-panel-4.jpg"],
+  ["Tartamada", "/images/debate-judge-1.jpg"],
+  ["Tartamada", "/images/debate-judge-2.jpg"],
+  ["Hawlaha Dugsiga", "/images/school-wall-english.jpg"],
+  ["Hawlaha Dugsiga", "/images/school-wall-english-2.jpg"],
+  ["Hawlaha Dugsiga", "/images/school-wall-arabic.jpg"],
   ["Macallimiinta", "/images/forum-teacher.jpeg"],
   ["Macallimiinta", "/images/forum-teachers.jpeg"],
   ["Xafladaha", "/images/graduation-guest.jpeg"],

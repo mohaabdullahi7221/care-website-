@@ -1,11 +1,12 @@
 export const IMG = {
-  hero: "/images/students-mixed.jpg",
-  about: "/images/students-outdoor-girls.jpg",
+  hero: "/images/stem-girls-circuit.jpg",
+  about: "/images/stem-girls-circuit.jpg",
   primary: "/images/students-indoor-1.jpg",
   secondary: "/images/students-boys-group.jpg",
 };
 
 export const heroSlides = [
+  "/images/stem-girls-circuit.jpg",
   "/images/students-team-outdoor.jpeg",
   "/images/stem-engineering-team.jpeg",
   "/images/students-mixed.jpg",
@@ -76,6 +77,7 @@ export const news = [
 ];
 
 export const gallery = [
+  ["Hawlaha Dugsiga", "/images/stem-girls-circuit.jpg"],
   ["Tartamada", "/images/debate-girls-1.jpg"],
   ["Tartamada", "/images/debate-girls-2.jpg"],
   ["Tartamada", "/images/debate-girls-niqab.jpg"],

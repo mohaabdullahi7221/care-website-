@@ -23,21 +23,21 @@ export const nav = [
   ["/wararka", "Wararka"], ["/xiriir", "Nala Soo Xiriir"],
 ];
 
+export const deputyPrincipal = ["Macallin Maxamed Nuur Maxamed Cabdullaahi", "Maamul ku-xigeenka dugsiga", "/images/maxamed-nuur-maxamed-cabdullaahi.jpeg"];
+
 export const teachers = [
   ["Macallin Cali Cumar Cali", "Kimistari iyo Bayooloji\nMadaxa Arrimaha Ardayda", "/images/cali.jpeg"],
-  ["Macallin Maxamed Nuur Maxamed Cabdullaahi", "Xisaab\nMadaxa Macallimiinta", "/images/maxamed-nuur-maxamed-cabdullaahi.jpeg"],
+  ["Macallin Sidiiq Maxamed Xasan", "Xisaab", "/images/sidiiq-maxamed-xasan.jpeg"],
   ["Macallin Xuseen Khadar Xuseen", "Af-Soomaali\nMadaxa Imtixaanaadka", "/images/xuseen.jpeg"],
-  ["Macallin Maxamed Cabdullaahi Isxaaq", "Fiisigis\nMaamulka Gelinka Dambe", "/images/mohamed.jpeg"],
-  ["Macallin Cabdullaahi Cumar Cali", "Xisaab", "/images/abdullahi.jpeg"],
+  ["Macallin Maxamed Cabdullaahi Isxaaq", "Fiisigis", "/images/mohamed.jpeg"],
+  ["Macallin Cabdullaahi Cumar Cali", "Tiknooloji", "/images/abdullahi.jpeg"],
   ["Macallin  Cali Maxamed Cabdullaahi", "Diinta Islaamka", "/images/sh-cali.jpeg"],
   ["Macallin Abshir Ibraahim Aadan", "cilmiga bulshada", "/images/abshir.jpeg"],
-  ["Macallin Cabdinaasir maxamed  cumar ", "Cilmiga Bulshada", "/images/c-naasir.jpeg"],
-  ["Macallin maxamed cumar cali", "tiknooloji", "/images/deeqow.jpeg"],
+  ["Macallin Cabdinaasir maxamed  cumar ", "English", "/images/c-naasir.jpeg"],
   ["Maxamed Cali Yaasiin", "Xisaabiye", "/images/maxamed-cali-yaasiin.jpeg"],
   ["Macallin Maxmuud aadan cusmaaan", "Juqraafi iyo taariikh", "/images/maxamuud.jpeg"],
   ["Macallin Cali Abshir kheyre", "Af-Carabi iyo tarbiyo", "/images/c-abshir.jpeg"],
   ["Macallin Bashiir xareed xasan", "cilmiga bulshada , saynis iyo tiknooloji ", "/images/bashiir.jpeg"],
-  ["Macallimad Maryama Shariif Cali", "Saynis iyo Tiknooloji", "/images/maryama-shariif-cali.jpeg"],
 ];
 
 export const events = [
@@ -51,7 +51,7 @@ export const events = [
   ["Guddoonsiinta Abaalmarinta Qalin-jabinta", "Abaalmarin", "Ardayda hormuudka ah ayaa lagu dhiirrigeliyey shahaadooyin iyo abaalmarinno sharaf leh.", "/images/graduation-award.jpeg"],
   ["Bandhigga Tiknoolajiyada Waxbarashada", "Tiknoolaji", "Ardaydu waxay ka qaybgaleen bandhig lagu soo bandhigay qalab iyo hal-abuur tiknoolajiyeed.", "/images/technology-launch.jpeg"],
   ["Heshiis Iskaashi oo Dhexmaray CARE iyo Nageyle", "Iskaashi Waxbarasho", "Dugsiga CARE iyo Dugsiga Nageyle ayaa kala saxiixday heshiis iskaashi waxbarasho oo lagu xoojinayo wada-shaqaynta iyo horumarinta fursadaha ardayda.", "/images/agreement-signing.jpeg"],
-  ["Aqoonsi loo Guddoonsiiyey CARE", "Aqoonsi", "Dugsiga CARE ayaa lagu maamuusay kaalintiisa horumarinta waxbarashada iyo bulshada.", "/images/school-recognition.jpeg"],
+  ["Midowga Dugsiyada Gobolka Banaadir oo la Abaalmariyey", "Abaalmarin", "Midowga Dugsiyada Gobolka Banaadir ayaa la abaalmariyey.", "/images/school-recognition.jpeg"],
   ["Tababarka Garsoorayaasha oo Dugsigu ka Qaybgalay", "Tababar Garsoorayaal", "Dugsiga CARE ayaa ka qaybgalay tababar lagu horumarinayey aqoonta iyo xirfadaha garsoorayaasha ciyaaraha.", "/images/football-certificate.jpeg"],
   ["Tartanka Aqoonta Ardayda", "Tartan Aqooneed", "Ardayda CARE waxay muujiyeen aqoon, kalsooni iyo wada-shaqayn.", "/images/event-student-speaker.jpg"],
   ["Bandhigga Kooxaha Aqoonta", "Hawl Arday", "Kooxaha ardaydu waxay si wadajir ah uga qaybgaleen hawl aqooneed xiiso leh.", "/images/event-knowledge-team.jpg"],

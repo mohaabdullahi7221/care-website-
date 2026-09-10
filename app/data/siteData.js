@@ -37,7 +37,7 @@ export const teachers = [
   ["Maxamed Cali Yaasiin", "Xisaabiye", "/images/maxamed-cali-yaasiin.jpeg"],
   ["Macallin Maxmuud aadan cusmaaan", "Juqraafi iyo taariikh", "/images/maxamuud.jpeg"],
   ["Macallin Cali Abshir kheyre", "Af-Carabi iyo tarbiyo", "/images/c-abshir.jpeg"],
-  ["Macallin Bashiir xareed xasan", "cilmiga bulshada , saynis iyo tiknooloji ", "/images/bashiir.jpeg"],
+  ["Macallin Bashiir xareed xasan", "cilmiga bulshada iyo saynis", "/images/bashiir.jpeg"],
 ];
 
 export const events = [

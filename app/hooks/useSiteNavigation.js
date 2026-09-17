@@ -1,13 +1,18 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export function useSiteNavigation() {
-  const [path, setPath] = useState("/");
+  const pathname = usePathname() || "/";
+  const [path, setPath] = useState(pathname);
   const [showToTop, setShowToTop] = useState(false);
 
   useEffect(() => {
-    setPath(location.pathname);
+    setPath(pathname);
+  }, [pathname]);
+
+  useEffect(() => {
     const onPopState = () => setPath(location.pathname);
     const onScroll = () => setShowToTop(scrollY > 500);
     addEventListener("popstate", onPopState);
